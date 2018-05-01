@@ -1,0 +1,155 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+
+/*Basic styling*/
+
+h2 {
+	font-family: Archive;
+	color: #e91c52;
+	margin-top: 8px;
+}
+
+h4 {
+	font-family: ChronicaProBold;
+	color: #111343;
+}
+
+body {
+  padding-top: 54px;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+	text-align: justify;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/*Import fonts*/
+
+@font-face {
+	font-family: Archive;
+	src: url("./fonts/Archive.woff") format("woff");
+}
+
+@font-face {
+	font-family: ChronicaProBold;
+	src: url("../fonts/ChronicaPro-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: ChronicaProRegular;
+	src: url("../fonts/ChronicaPro-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: ChronicaProLight;
+	src: url("../fonts/ChronicaPro-UltraLight.woff") format("woff");
+}
+
+/*Navbar*/
+
+.bg-dark {
+	background-color: #111343 !important;
+}
+
+.navbar-dark .navbar-nav > .nav-link {
+	font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+	font-weight: bold;
+}
+
+.nav-link, .dropdown-item {
+	font-family: ChronicaProLight;
+	font-weight: bold;
+}
+
+/*Carousel*/
+
+.carousel-item > img {
+	object-fit: cover;
+	height: 400px;
+	width: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	height: 55%;
+}
+
+.carousel-caption {
+	background-color: rgb(0, 0, 0, 0.75);
+	padding: 5px 20px 15px 20px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.carousel-caption > h2 {
+	color: #e91c52;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	/*text-align: left;*/
+}
+
+.carousel-caption > p {
+	text-align: center;
+	font-family: ChronicaProRegular;
+	margin-bottom: 10px;
+}
+
+.carousel-indicators {
+	margin-bottom: 3px;
+}
+
+/*Buttons*/
+
+.btn-primary {
+	background-color: #e91c52;
+	border-color: #e91c52;
+}
+
+.btn-primary:hover {
+	background-color: #111343;
+	border-color: #111343;
+}
+
+/*Cards*/
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+	object-fit: cover;
+	height: 190px;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card-footer {
+	text-align: right;
+}
