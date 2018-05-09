@@ -1,0 +1,5 @@
+- tomar fotos de socios y de eventos y proyectos para incluir en galeria del sitio.
+- Crear un grafico para los valores e insertar como imagen
+- completar resto de paginas de servicios
+- Organizar las capacitaciones como: las de ley, la de especializados, etc. (Hansel sabe de esto)
+- Logo de certificaciones en footer?
