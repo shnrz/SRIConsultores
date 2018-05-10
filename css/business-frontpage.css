@@ -121,9 +121,17 @@ hr.hr-blue {
 	font-weight: bold;
 }
 
+.dropdown-menu {
+	background-color: rgba(255,255,255,0.9);
+}
+
 .nav-link, .dropdown-item {
 	font-family: ChronicaProLight;
 	font-weight: bold;
+}
+
+.dropdown-item:hover {
+	background-color: rgba(17,19,67,0.2);
 }
 
 a.nav-link:hover {
