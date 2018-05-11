@@ -7,4 +7,3 @@
 - Crear carrusel de ultimas noticias en inicio.html donde poner entradas de blog, nuevos cursos y promociones.
 - Buscar otro estilo para tarjetas de misión y visión
 - La pagina de inicio no parece inicio.
-- Actualizar fotos de equipo
