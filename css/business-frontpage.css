@@ -250,7 +250,7 @@ active a.nav-link:hover {
 	object-fit: cover;
 }
 
-.card-img-top.card-smallicon {
+.smallicon {
 	max-height: 130px;
 	object-fit: contain;
 }
