@@ -34,6 +34,14 @@ p {
 	font-size: 1.2rem;
 }
 
+.text-white h4 {
+	color: white;
+}
+
+.text-center p {
+	text-align: center;
+}
+
 .notnavbar > li {
 	font-size: 1.2rem;
 	margin-bottom: 7px;
@@ -258,6 +266,12 @@ active a.nav-link:hover {
 .sociopic {
 	max-height: 250px;
 	width: auto;
+}
+
+/*COLORED DIVS*/
+.div-back-img {
+	background-size: cover;
+	background-position: center center;
 }
 
 /*FOOTER*/
