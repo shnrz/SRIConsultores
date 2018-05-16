@@ -143,13 +143,10 @@ hr.hr-blue {
 }
 
 a.nav-link:hover {
-	border-bottom: 2px solid rgba(255,255,255,.75);
+	border-bottom: 2px solid #e91c52;
+	/*rgba(255,255,255,.75)*/
 	padding-bottom: 0px;
-	/*text-decoration: underline;*/
-}
-
-active a.nav-link:hover {
-	border-bottom: 2px solid #fff;
+	color: #e91c52 !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
