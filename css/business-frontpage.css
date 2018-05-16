@@ -116,10 +116,10 @@ hr.hr-blue {
 	background-color: #111343 !important;
 }
 
-.navbar {
+/*.navbar {
 	padding-top: 2px;
 	padding-bottom: 2px;
-}
+}*/
 
 .navbar-dark .navbar-nav > .nav-link {
 	font-weight: bold;
