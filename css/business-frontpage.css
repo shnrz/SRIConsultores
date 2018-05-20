@@ -92,7 +92,7 @@ hr.hr-blue {
 
 @font-face {
 	font-family: Archive;
-	src: url("./fonts/Archive.woff") format("woff");
+	src: url("../fonts/Archive.woff") format("woff");
 }
 
 @font-face {
