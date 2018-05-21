@@ -66,8 +66,8 @@ hr.hr-blue {
 }
 
 .featurette {
-	max-height: 350px;
-	max-width: 350px;
+	max-height: 400px;
+	max-width: 400px;
 	width: 80%;
 	/*object-fit: cover;*/
 }
