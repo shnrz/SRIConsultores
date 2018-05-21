@@ -72,6 +72,14 @@ hr.hr-blue {
 	/*object-fit: cover;*/
 }
 
+.shadow {
+	 box-shadow: 1px 1px 10px #888888;
+}
+
+div.shadow-hover:hover {
+	box-shadow: 1px 1px 10px #888888;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 44px;
