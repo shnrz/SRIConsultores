@@ -77,7 +77,11 @@ hr.hr-blue {
 }
 
 .shadow {
-	 box-shadow: 1px 1px 10px #888888;
+	box-shadow: 1px 1px 10px #888888;
+}
+
+.shadow-circle {
+	box-shadow: 1px 1px 13px #000000;
 }
 
 div.shadow-hover:hover {
