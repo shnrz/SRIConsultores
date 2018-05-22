@@ -66,10 +66,26 @@ hr.hr-blue {
 }
 
 .featurette {
-	max-height: 350px;
-	max-width: 350px;
+	max-height: 400px;
+	max-width: 400px;
 	width: 80%;
 	/*object-fit: cover;*/
+}
+
+.shadow-text {
+	text-shadow: 1px 1px 10px #888888;
+}
+
+.shadow {
+	box-shadow: 1px 1px 10px #888888;
+}
+
+.shadow-circle {
+	box-shadow: 1px 1px 13px #000000;
+}
+
+div.shadow-hover:hover {
+	box-shadow: 1px 1px 10px #888888;
 }
 
 @media (min-width: 992px) {
