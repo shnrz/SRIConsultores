@@ -263,6 +263,11 @@ a.nav-link:hover {
 	object-fit: cover;
 }
 
+.xs_icon {
+	height: 1.6rem;
+	width: auto;
+}
+
 .smallicon {
 	max-height: 130px;
 	object-fit: contain;
