@@ -94,6 +94,15 @@ div.shadow-hover:hover {
   }
 }
 
+@media (min-width: 575px) {
+	.container-construccion {
+	  min-height: 75vh;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+  	}
+}
+
 .business-header {
   height: 50vh;
   min-height: 300px;
@@ -160,7 +169,6 @@ div.shadow-hover:hover {
 
 a.nav-link:hover {
 	border-bottom: 2px solid #e91c52;
-	/*rgba(255,255,255,.75)*/
 	padding-bottom: 0px;
 	color: #e91c52 !important;
 }
@@ -183,8 +191,20 @@ a.nav-link:hover {
 
 .carousel-item > img {
 	object-fit: cover;
-	height: 400px;
+	height: 90vh;
 	width: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.carousel-item > img {
+		height: 45vh;
+	}
+
+	.img-cover {
+		height: 45vh;
+		width: auto;
+		object-fit: cover;
+	}
 }
 
 /*.carousel-control-prev, .carousel-control-next {
