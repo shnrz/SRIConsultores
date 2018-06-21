@@ -8,7 +8,7 @@
 /*Basic styling*/
 
 h2 {
-	font-family: Archive;
+	font-family: Archive, serif;
 	color: #e91c52;
 	margin-top: 8px;
 	border-bottom: 2px solid #e91c52;
@@ -20,7 +20,7 @@ h2 {
 }*/
 
 h4, h5 {
-	font-family: ChronicaProBold;
+	font-family: ChronicaProBold, sans-serif;
 	color: #111343;
 }
 
@@ -150,7 +150,7 @@ div.shadow-hover:hover {
 }
 
 .nav-link, .dropdown-item {
-	font-family: ChronicaProLight;
+	font-family: ChronicaProLight, sans-serif;
 	font-weight: bold;
 }
 
@@ -210,7 +210,7 @@ a.nav-link:hover {
 
 .carousel-caption > p {
 	text-align: center;
-	font-family: ChronicaProRegular;
+	font-family: ChronicaProRegular, sans-serif;
 	margin-bottom: 10px;
 }
 

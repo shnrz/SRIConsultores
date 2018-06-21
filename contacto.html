@@ -94,7 +94,7 @@
 					<div class="row">
 						<div class="col-sm-4 px-5 pb-4">
 							<p>Póngase en contacto con nosotros para descubrir las formas en que podemos hacer crecer a su organización y protegerla.</p>
-							<p>Nuestros socios le atenderán gustosamente por teléfono, mensaje o correo electrónico.</p>
+							<p>Nuestros socios le atenderán gustosamente por teléfono, Whatsapp o correo electrónico.</p>
 						</div>
 						<div class="col-sm-4 px-4">
 							<div class="card shadow-hover">
@@ -103,8 +103,8 @@
 									<h4>Carlos Zelaya</h4>
 									<h5 class="text-muted font-italic">Gerente General</h5>
 									<p>
-										<img src="./img/whatsapp.png" alt="whatsapp" class="xs_icon">
-										<img src="./img/movistar.png" alt="movistar" class="xs_icon"> (505) 7661-9845</p>
+										<!-- <img src="./img/whatsapp.png" alt="whatsapp" class="xs_icon">
+										<img src="./img/movistar.png" alt="movistar" class="xs_icon"> -->(505) 7661-9845</p>
 									<a href="mailto:carlos.zelaya@gruposri.net" style="font-size: 1.2rem">carlos.zelaya@gruposri.net</a>
 								</div>
 							</div>
@@ -116,8 +116,8 @@
 									<h4>Hansel Quintero</h4>
 									<h5 class="text-muted font-italic">Gerente de Ventas</h5>
 									<p>
-										<img src="./img/whatsapp.png" alt="whatsapp" class="xs_icon">
-										<img src="./img/movistar.png" alt="movistar" class="xs_icon">(505) 8588-1015</p>
+										<!-- <img src="./img/whatsapp.png" alt="whatsapp" class="xs_icon">
+										<img src="./img/movistar.png" alt="movistar" class="xs_icon">-->(505) 8588-1015</p>
 									<a href="mailto:hansel.quintero@gruposri.net" style="font-size: 1.2rem">hansel.quintero@gruposri.net</a>
 								</div>
 							</div>
@@ -145,7 +145,28 @@
 					</div>
 					<div class="form-group py-3">
 						<label class="font-weight-bold pb-3" for="phone_field">Su teléfono</label>
-						<input type="text" class="form-control col-sm-7" name="telefono" id="phone_field" placeholder="XXXX-XXXX">
+						<input type="text" class="form-control col-sm-7" name="telefono" id="phone_field" placeholder="1234-5678">
+					</div>
+					<div class="row">
+						<div class="col-sm-7">
+							<p class="font-weight-bold">Su método preferido de contacto</p>
+						</div>
+					</div>
+					<div class="row pb-4">
+						<div class="col-sm-7 pl-5">
+							<div class="form-check">
+								<input type="radio" name="metodo" class="form-check-input" value="Telefono" id="radio1">
+								<label for="radio1" class="form-check-label">Teléfono</label>
+							</div>
+							<div class="form-check">
+								<input type="radio" name="metodo" class="form-check-input" value="Email" id="radio2">
+								<label for="radio2" class="form-check-label">Email</label>
+							</div>
+							<div class="form-check">
+								<input type="radio" name="metodo" class="form-check-input" value="Whatsapp" id="radio3">
+								<label for="radio3" class="form-check-label">Whatsapp</label>
+							</div>
+						</div>
 					</div>
 					<!-- <input type="hidden" name="_cc" value="hansel.quintero@gruposri.net,carlos.zelaya@gruposri.net" /> -->
 					<input type="hidden" name="_subject" value="Mensaje de Web SRI Consultores" />
